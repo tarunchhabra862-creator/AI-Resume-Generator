@@ -126,7 +126,8 @@ job_prompt = f"""Based on {PROFILE} jobs in {LOCATION},
  try top 10 search or whatever available
  and give result like naukri theme design with
  job name,job desc,salary,
- apply link and ouptput"""
+ apply link and ouptput 
+ must be in html no markdown """
  
 
 if st.button('generate resume'):
